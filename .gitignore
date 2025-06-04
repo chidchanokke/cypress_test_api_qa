@@ -1,0 +1,13 @@
+### Cypress Custom .gitignore ###
+*.log.*
+dist-*
+build
+.history
+.publish
+_test-output
+cypress.zip
+.babel-cache
+node_modules
+
+# from config, compiled .js files
+packages/config/src/*.js
